@@ -1,0 +1,4 @@
+{"title": "Ukulele KALA", "class": "music_instrument","price": 4500, "location": {"address": "Москва, улица Тихих вязов, 17", "metro": ["Октябрьское поле", "Панфиловская"]}}
+{"title": "Стол PAUL", "class": "furniture", "price": 5500, "location": {"address": "Химки, IKEA"}}
+{"title": "Дворовый кот", "class": "cat", "location": {"address": "Москва"}}
+{"title": "Multi-pass Big Brother is watching you", "class": "pass", "price": -666, "location": {"address": "Москва, не выходи из комнаты, не совершай ошибку"}}
