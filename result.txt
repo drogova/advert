@@ -1,0 +1,34 @@
+advert git/master
+(env) ❯ python -m advert
+
+Ukulele KALA | 4500 ₽
+4500
+music_instrument
+Москва, улица Тихих вязов, 17
+
+Стол PAUL | 5500 ₽
+5500
+furniture
+Химки, IKEA
+
+Дворовый кот | 0 ₽
+0
+cat
+Москва
+
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.2_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/local/Cellar/python/3.7.2_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/Users/dyurogova/PycharmProjects/advert/advert/__main__.py", line 22, in <module>
+    args.func()
+  File "/Users/dyurogova/PycharmProjects/advert/advert/__main__.py", line 10, in test
+    advert = Advert(advert_mapping)
+  File "/Users/dyurogova/PycharmProjects/advert/advert/classes/advert.py", line 31, in __init__
+    super().__init__(mapping)
+  File "/Users/dyurogova/PycharmProjects/advert/advert/classes/advert.py", line 24, in __init__
+    self.__setattr__(name, value)
+  File "/Users/dyurogova/PycharmProjects/advert/advert/classes/advert.py", line 37, in __setattr__
+    raise ValueError('Incorrect price value: Price must be greater or equal 0.')
+ValueError: Incorrect price value: Price must be greater or equal 0.
